@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #8e1b6c73;
+    font-variant: initial;
+    font-style: italic;
+    text-align: center;
+    background-image:url("photo.png");
+    background-size: 1400px;
+  }
+  .container {
+    height: 70vh;
+    display: flex;
+     font-style: italic;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: 3px solid #5c4ae6;
+    border-style: ridge;
+    border-style: ridge;
+    box-decoration-break: clone;
+    font-size: 8vmin;
+    font-style: italic;
+    color: #7a0dd3;
+    background-color: #f9f9f9;
+    background: linear-gradient(#fff,#bd97e9);
+    box-shadow: #bd97e9;
+  }
+  
+  #reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-style: italic;
+    font-weight: 1000;
+    background-color:  #645da7;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  }
+  
+  #new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #645da7;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  }
+  
+  #msg {
+    color: #ffffc7;
+    font-size: 5vmin;
+  }
+  
+  .msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .hide {
+    display: none;
+  }
+h1{
+    color:#4b3b9c;
+    margin: 50px;
+    padding: 0%;
+    font-size: 300%;
+    border: #e7eb75;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
